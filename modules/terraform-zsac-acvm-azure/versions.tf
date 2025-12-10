@@ -6,11 +6,11 @@ terraform {
     }
     local = {
       source  = "hashicorp/local"
-      version = "~> 2.5.0"
+      version = ">= 2.5.0"
     }
     null = {
       source  = "hashicorp/null"
-      version = "~> 3.1.0"
+      version = ">= 3.1.0"
     }
   }
   required_version = ">= 0.13.7, < 2.0.0"
